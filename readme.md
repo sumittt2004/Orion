@@ -153,18 +153,6 @@ Orion/
 └── .env.example
 ```
 
----
-
-## 🌐 Deploy on Hugging Face Spaces
-
-```bash
-huggingface-cli login
-huggingface-cli repo create orion-research-agent --type space --space-sdk streamlit
-git remote add hf https://huggingface.co/spaces/YOUR_HF_USERNAME/orion-research-agent
-git push hf main
-```
-
-Then go to **Space → Settings → Variables and secrets** and add your `GROQ_API_KEY` and `TAVILY_API_KEY`.
 
 ---
 
@@ -180,7 +168,12 @@ Then go to **Space → Settings → Variables and secrets** and add your `GROQ_A
 **Async search** — replace sequential Tavily calls in `searcher.py` with `asyncio.gather` for faster parallel fetching.
 
 ---
+## 👤 Author
 
+**Sumit Mishra**
+
+- GitHub: [@sumittt2004](https://github.com/sumittt2004)
+- LinkedIn: [Sumit Mishra](https://www.linkedin.com/in/mishra-sumit-/)
 
 
 ---
