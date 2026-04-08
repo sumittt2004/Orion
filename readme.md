@@ -17,6 +17,13 @@
 </div>
 
 ---
+---
+
+## 🌐 Live Demo
+
+**[🚀 Try Orion Live](https://pzsqjbkzxiofgbepglbaa2.streamlit.app/)** - No installation required!
+
+---
 
 ## 📸 Screenshots
 
